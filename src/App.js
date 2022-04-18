@@ -1,7 +1,7 @@
-import Die from './components/Die'
-import React from 'react'
-import { nanoid } from 'nanoid'
-import Confetti from 'react-confetti'
+import Die from "./components/Die"
+import React from "react"
+import { nanoid } from "nanoid"
+import Confetti from "react-confetti"
 
 function App() {
   const [dice, setDice] = React.useState(allNewDice())
